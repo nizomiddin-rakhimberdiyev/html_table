@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form bilan ishlash</h1>
+    <form method="post" enctype="multipart/form-data">
+        <label for="firstname">First Name: </label>
+        <input type="text" id="firstname" placeholder="Isming nima">
+        <br><br>
+        <label for="lastname">Last Name: </label>
+        <input type="text" id="lastname" placeholder="Familiyang nima">
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" id="email">
+        <br><br>
+        <label for="pass">Password: </label>
+        <input type="password" id="pass" >
+        <br><br>
+        <label for="num">Number: </label>
+        <input type="number" id="num">
+        <br><br>
+        <label for="" >Erkak</label>
+        <input type="radio" name="gender">
+        <label for="">Ayol</label>
+        <input type="radio" name="gender" id="">
+        <br><br>
+        <label for="">18 yoshdan o'tganmisan?</label>
+        <input type="checkbox" name="" id="">
+        <br><br>
+        <label for="birth">Tug'ilgan sana: </label>
+        <input type="date" id="birth">
+        <br><br>
+        <label for="time">Tug'ilgan vaqt: </label>
+        <input type="time" id="birth">
+        <br><br>
+        <label for="passport">Passportingni yubor: </label>
+        <input type="file" id="passport">
+        <br><br>
+        <label for="rang">Qaysi rangni yoqtirasan: </label>
+        <input type="color" id="rang">
+        <br><br>
+        <label for="skill">Sohani nechi foiz bilasan: </label>
+        <input value="35" type="range" id="skill">
+        <br><br>
+        <label for="skill">Qaysi haftada tug'ilgansan: </label>
+        <input type="day" id="skill">
+        <br><br>
+        <label for="city">Qaysi shahardansan? </label>
+        <select name="" id="city">
+            <option value="0">Toshkent</option>
+            <option value="1">Samarqand</option>
+            <option value="2">Andijon</option>
+            <option value="3">Farg'ona</option>
+        </select>
+        <br><br>
+        <label for="data">O'zing haqingda ma'lumot yoz: </label><br>
+        <textarea name="data" id="data" rows="10" cols="40" placeholder="Sen kimsan?"></textarea>
+
+        <br>
+        <button type="submit">Yuborish</button>
+    </form>
+</body>
+</html>
